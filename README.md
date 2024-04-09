@@ -1,5 +1,5 @@
 # Image Tagging and Tag Cloud Visualization
-
+<img width="804" alt="Screenshot 2024-04-08 at 7 19 47 PM" src="https://github.com/0x4133/ipic/assets/165495937/98f243f3-71db-40c4-9913-26e54bd86168">
 This project is a Python script that processes images in a specified folder, extracts text from the images using optical character recognition (OCR), and generates tags based on the extracted text. The tags are then stored in a SQLite database. Additionally, the project provides a live tag cloud visualization that excludes the top N most frequent tags, where N is adjustable by the user.
 
 ## Features
@@ -12,6 +12,7 @@ This project is a Python script that processes images in a specified folder, ext
 - Allows the user to adjust the number of top tags to filter out from the tag cloud
 
 ## Requirements
+
 
 - Python 3.x
 - OpenCV (cv2)
